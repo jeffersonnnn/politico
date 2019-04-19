@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+
+}
+
+.menu-container {
+  	color: #fff;
+	background-color: #250F8A;
+	padding: 20px 0;
+	display: flex;	
+    justify-content: center;
+
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.sidebar2 {
+	float: right;
+	width: 40%;
+}
+/* Full-width input fields */
+.signup {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn {
+  float: left;
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  padding: 14px 20px;
+  background-color: #f44336;
+
+}
+
+.signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #FFCA00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;	
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.sidebar1 {
+	font-size: 50px;
+	display: flex;
+	margin-top: 20px;	
+	margin-left: 5px;
+}
+
+.grid {
+	width: 50%;
+	margin-top: 5%;
+}
+
+.paragraph {
+	font-size: 32px;
+    margin-top: 20px;
+}
+
+.note {
+	font-family: 'Cinzel', serif;
+	font-size: 67px;
+	margin-top: -2px;
+}
+
+.home {
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 8px;
+    font-size: 33px;
+}
+
+.details {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;	
+}
+
+
+
+.item button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;	
+}
