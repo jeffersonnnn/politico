@@ -143,8 +143,6 @@ button:hover {
   width:120px;	
 }
 
-
-
 .item button {
   float: right;
   padding: 6px 10px;
@@ -155,4 +153,36 @@ button:hover {
   font-size: 17px;
   border: none;
   cursor: pointer;	
+}
+
+
+/*reset page*/
+
+.boxed {
+    height: 218px;
+    width: 44%;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: #DADADA;
+    border-radius: 8px;
+}
+
+.txt {
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.tostos {
+    padding-left: 26px;
+    margin-top: 39px;
+}
+
+.boxed input {
+    padding-left: 75px;
+    margin-left: 26px;
+    margin-top: 29px;
+}
+
+.hex {
+  
 }
