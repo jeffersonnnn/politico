@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha Server/src/test",
     "build": "babel ./Server/server.js --out-dir build",
     "dev-start": "babel-watch ./Server/server.js"
   },
@@ -25,9 +25,11 @@
     "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
     "babel-watch": "^7.0.0",
+    "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint-plugin-import": "^2.17.2",
+    "mocha": "^6.1.4"
   },
   "dependencies": {
     "@babel/core": "^7.4.3",
