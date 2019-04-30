@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha Server/src/test",
     "build": "babel ./Server/server.js --out-dir build",
-    "dev-start": "babel-watch ./Server/server.js"
+    "dev-start": "babel-watch ./Server/server.js",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,10 +27,12 @@
     "babel-preset-env": "^1.7.0",
     "babel-watch": "^7.0.0",
     "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "mocha-lcov-reporter": "^1.3.0"
   },
   "dependencies": {
     "@babel/core": "^7.4.3",
